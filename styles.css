@@ -1,0 +1,38 @@
+/*  sketch divs:
+    - border width 1
+    - border color black
+    - no padding
+    - no margin
+    - flexboxed and take 1/16 of 
+    - height and width of 
+    - container div
+*/
+
+/*  container
+    - positioned at the center 
+    of the screen
+        - 'display: flex'
+    - flexboxed and take 50% 
+    of window's height and width
+*/
+
+/*  margins still work in flexbox
+    just like they did in the CSS
+    box model, so auto margins have
+    special meaning in flexbox
+
+    https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/
+*/
+body {
+    padding: 100px;
+    background-color: black;
+    
+}
+
+.sketch-container {
+    display: flex;
+    flex-basis:400px;
+    background-color: white;
+
+
+}
