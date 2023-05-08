@@ -24,15 +24,25 @@
     https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/
 */
 body {
-    padding: 100px;
+    padding: 40px;
     background-color: black;
+}
+
+#grid {
+display: flex;
+flex-direction: column;
+height: 50vh;
+width: 50vh;
+margin: auto;
+}
     
+.row {
+display: flex;
+flex: 1;
 }
 
-.sketch-container {
-    display: flex;
-    flex-basis:400px;
-    background-color: white;
-
-
+.column {
+flex: 1;
+background-Color: white;
 }
+
